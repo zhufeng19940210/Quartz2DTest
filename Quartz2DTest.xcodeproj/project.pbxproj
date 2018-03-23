@@ -22,6 +22,7 @@
 		BF9D04DB2065AA3F00E450EA /* ZFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04DA2065AA3F00E450EA /* ZFImageView.m */; };
 		BF9D04DE2065ADEB00E450EA /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04DD2065ADEB00E450EA /* SnowView.m */; };
 		BF9D04E12065B07E00E450EA /* JuzhenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04E02065B07E00E450EA /* JuzhenView.m */; };
+		BF9D04E42065B67400E450EA /* myImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04E32065B67400E450EA /* myImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		BF9D04DD2065ADEB00E450EA /* SnowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
 		BF9D04DF2065B07E00E450EA /* JuzhenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuzhenView.h; sourceTree = "<group>"; };
 		BF9D04E02065B07E00E450EA /* JuzhenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuzhenView.m; sourceTree = "<group>"; };
+		BF9D04E22065B67400E450EA /* myImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myImageView.h; sourceTree = "<group>"; };
+		BF9D04E32065B67400E450EA /* myImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				BF9D04DD2065ADEB00E450EA /* SnowView.m */,
 				BF9D04DF2065B07E00E450EA /* JuzhenView.h */,
 				BF9D04E02065B07E00E450EA /* JuzhenView.m */,
+				BF9D04E22065B67400E450EA /* myImageView.h */,
+				BF9D04E32065B67400E450EA /* myImageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				BF9D04D520658A4100E450EA /* BarView.m in Sources */,
 				BF9D04AE206569EF00E450EA /* AppDelegate.m in Sources */,
 				BF9D04D2206581DA00E450EA /* PieView.m in Sources */,
+				BF9D04E42065B67400E450EA /* myImageView.m in Sources */,
 				BF9D04CF20657BDE00E450EA /* ProgressView.m in Sources */,
 				BF9D04E12065B07E00E450EA /* JuzhenView.m in Sources */,
 				BF9D04D82065A4A700E450EA /* DrawView.m in Sources */,
@@ -369,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
 				INFOPLIST_FILE = Quartz2DTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.Quartz2DTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
 				INFOPLIST_FILE = Quartz2DTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.Quartz2DTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

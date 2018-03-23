@@ -67,7 +67,7 @@
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InS-7M-E9m" customClass="SnowView">
-                                <rect key="frame" x="2" y="468" width="372" height="199"/>
+                                <rect key="frame" x="2" y="570" width="372" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -76,11 +76,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-jx-Ceg">
+                                <rect key="frame" x="16" y="468" width="100" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69G-vB-ra5">
+                                <rect key="frame" x="153" y="500" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="截屏Btn"/>
+                                <connections>
+                                    <action selector="onClickJiePingBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k8R-Vl-XCb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="clipimageView" destination="Yln-jx-Ceg" id="IGq-BW-kHp"/>
                         <outlet property="myLabel" destination="gkV-zf-2MP" id="hEw-rw-SiR"/>
                         <outlet property="precentLabel" destination="cqB-f1-vQg" id="7Bh-VY-jyQ"/>
                         <outlet property="preogressView" destination="Mj3-Ff-q2S" id="LRx-oS-Ryp"/>
