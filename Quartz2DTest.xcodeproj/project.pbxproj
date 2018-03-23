@@ -13,6 +13,13 @@
 		BF9D04B6206569EF00E450EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9D04B5206569EF00E450EA /* Assets.xcassets */; };
 		BF9D04B9206569EF00E450EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9D04B7206569EF00E450EA /* LaunchScreen.storyboard */; };
 		BF9D04BC206569EF00E450EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04BB206569EF00E450EA /* main.m */; };
+		BF9D04C920656CA900E450EA /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04C820656CA900E450EA /* LineView.m */; };
+		BF9D04CC206578FB00E450EA /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04CB206578FB00E450EA /* ShareView.m */; };
+		BF9D04CF20657BDE00E450EA /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04CE20657BDE00E450EA /* ProgressView.m */; };
+		BF9D04D2206581DA00E450EA /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04D1206581DA00E450EA /* PieView.m */; };
+		BF9D04D520658A4100E450EA /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04D420658A4100E450EA /* BarView.m */; };
+		BF9D04D82065A4A700E450EA /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04D72065A4A700E450EA /* DrawView.m */; };
+		BF9D04DB2065AA3F00E450EA /* ZFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04DA2065AA3F00E450EA /* ZFImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		BF9D04B8206569EF00E450EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9D04BA206569EF00E450EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF9D04BB206569EF00E450EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9D04C620656B3D00E450EA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF9D04C720656CA900E450EA /* LineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		BF9D04C820656CA900E450EA /* LineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		BF9D04CA206578FB00E450EA /* ShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		BF9D04CB206578FB00E450EA /* ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		BF9D04CD20657BDE00E450EA /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		BF9D04CE20657BDE00E450EA /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		BF9D04D0206581DA00E450EA /* PieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		BF9D04D1206581DA00E450EA /* PieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		BF9D04D320658A4100E450EA /* BarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		BF9D04D420658A4100E450EA /* BarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		BF9D04D62065A4A600E450EA /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		BF9D04D72065A4A700E450EA /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		BF9D04D92065AA3F00E450EA /* ZFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageView.h; sourceTree = "<group>"; };
+		BF9D04DA2065AA3F00E450EA /* ZFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 		BF9D04AB206569EF00E450EA /* Quartz2DTest */ = {
 			isa = PBXGroup;
 			children = (
+				BF9D04C220656AD800E450EA /* Classes */,
 				BF9D04AC206569EF00E450EA /* AppDelegate.h */,
 				BF9D04AD206569EF00E450EA /* AppDelegate.m */,
 				BF9D04AF206569EF00E450EA /* ViewController.h */,
@@ -67,8 +90,54 @@
 				BF9D04B7206569EF00E450EA /* LaunchScreen.storyboard */,
 				BF9D04BA206569EF00E450EA /* Info.plist */,
 				BF9D04BB206569EF00E450EA /* main.m */,
+				BF9D04C620656B3D00E450EA /* PrefixHeader.pch */,
 			);
 			path = Quartz2DTest;
+			sourceTree = "<group>";
+		};
+		BF9D04C220656AD800E450EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D04C320656AD800E450EA /* Controller */,
+				BF9D04C420656AD800E450EA /* Model */,
+				BF9D04C520656AD800E450EA /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF9D04C320656AD800E450EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF9D04C420656AD800E450EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF9D04C520656AD800E450EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D04C720656CA900E450EA /* LineView.h */,
+				BF9D04C820656CA900E450EA /* LineView.m */,
+				BF9D04CA206578FB00E450EA /* ShareView.h */,
+				BF9D04CB206578FB00E450EA /* ShareView.m */,
+				BF9D04CD20657BDE00E450EA /* ProgressView.h */,
+				BF9D04CE20657BDE00E450EA /* ProgressView.m */,
+				BF9D04D0206581DA00E450EA /* PieView.h */,
+				BF9D04D1206581DA00E450EA /* PieView.m */,
+				BF9D04D320658A4100E450EA /* BarView.h */,
+				BF9D04D420658A4100E450EA /* BarView.m */,
+				BF9D04D62065A4A600E450EA /* DrawView.h */,
+				BF9D04D72065A4A700E450EA /* DrawView.m */,
+				BF9D04D92065AA3F00E450EA /* ZFImageView.h */,
+				BF9D04DA2065AA3F00E450EA /* ZFImageView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9D04C920656CA900E450EA /* LineView.m in Sources */,
 				BF9D04B1206569EF00E450EA /* ViewController.m in Sources */,
+				BF9D04DB2065AA3F00E450EA /* ZFImageView.m in Sources */,
+				BF9D04CC206578FB00E450EA /* ShareView.m in Sources */,
 				BF9D04BC206569EF00E450EA /* main.m in Sources */,
+				BF9D04D520658A4100E450EA /* BarView.m in Sources */,
 				BF9D04AE206569EF00E450EA /* AppDelegate.m in Sources */,
+				BF9D04D2206581DA00E450EA /* PieView.m in Sources */,
+				BF9D04CF20657BDE00E450EA /* ProgressView.m in Sources */,
+				BF9D04D82065A4A700E450EA /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
