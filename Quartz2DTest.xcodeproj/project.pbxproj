@@ -23,6 +23,11 @@
 		BF9D04DE2065ADEB00E450EA /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04DD2065ADEB00E450EA /* SnowView.m */; };
 		BF9D04E12065B07E00E450EA /* JuzhenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04E02065B07E00E450EA /* JuzhenView.m */; };
 		BF9D04E42065B67400E450EA /* myImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04E32065B67400E450EA /* myImageView.m */; };
+		BF9D04EA2065C26900E450EA /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04E92065C26900E450EA /* UIImage+Image.m */; };
+		BF9D04EE2065C9BD00E450EA /* HuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04EC2065C9BD00E450EA /* HuaViewController.m */; };
+		BF9D04EF2065C9BD00E450EA /* HuaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9D04ED2065C9BD00E450EA /* HuaViewController.xib */; };
+		BF9D04F52065CD6C00E450EA /* DrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04F42065CD6C00E450EA /* DrawPath.m */; };
+		BF9D04F82065DD3600E450EA /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D04F72065DD3600E450EA /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,15 @@
 		BF9D04E02065B07E00E450EA /* JuzhenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuzhenView.m; sourceTree = "<group>"; };
 		BF9D04E22065B67400E450EA /* myImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myImageView.h; sourceTree = "<group>"; };
 		BF9D04E32065B67400E450EA /* myImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myImageView.m; sourceTree = "<group>"; };
+		BF9D04E82065C26900E450EA /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		BF9D04E92065C26900E450EA /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		BF9D04EB2065C9BD00E450EA /* HuaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaViewController.h; sourceTree = "<group>"; };
+		BF9D04EC2065C9BD00E450EA /* HuaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaViewController.m; sourceTree = "<group>"; };
+		BF9D04ED2065C9BD00E450EA /* HuaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuaViewController.xib; sourceTree = "<group>"; };
+		BF9D04F32065CD6C00E450EA /* DrawPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPath.h; sourceTree = "<group>"; };
+		BF9D04F42065CD6C00E450EA /* DrawPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPath.m; sourceTree = "<group>"; };
+		BF9D04F62065DD3600E450EA /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		BF9D04F72065DD3600E450EA /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,13 @@
 		BF9D04C320656AD800E450EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF9D04EB2065C9BD00E450EA /* HuaViewController.h */,
+				BF9D04EC2065C9BD00E450EA /* HuaViewController.m */,
+				BF9D04ED2065C9BD00E450EA /* HuaViewController.xib */,
+				BF9D04F32065CD6C00E450EA /* DrawPath.h */,
+				BF9D04F42065CD6C00E450EA /* DrawPath.m */,
+				BF9D04F62065DD3600E450EA /* DrawView.h */,
+				BF9D04F72065DD3600E450EA /* DrawView.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +172,8 @@
 				BF9D04E02065B07E00E450EA /* JuzhenView.m */,
 				BF9D04E22065B67400E450EA /* myImageView.h */,
 				BF9D04E32065B67400E450EA /* myImageView.m */,
+				BF9D04E82065C26900E450EA /* UIImage+Image.h */,
+				BF9D04E92065C26900E450EA /* UIImage+Image.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +239,7 @@
 				BF9D04B9206569EF00E450EA /* LaunchScreen.storyboard in Resources */,
 				BF9D04B6206569EF00E450EA /* Assets.xcassets in Resources */,
 				BF9D04B4206569EF00E450EA /* Main.storyboard in Resources */,
+				BF9D04EF2065C9BD00E450EA /* HuaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9D04EE2065C9BD00E450EA /* HuaViewController.m in Sources */,
 				BF9D04C920656CA900E450EA /* LineView.m in Sources */,
+				BF9D04F52065CD6C00E450EA /* DrawPath.m in Sources */,
 				BF9D04B1206569EF00E450EA /* ViewController.m in Sources */,
 				BF9D04DE2065ADEB00E450EA /* SnowView.m in Sources */,
 				BF9D04DB2065AA3F00E450EA /* ZFImageView.m in Sources */,
@@ -235,8 +261,10 @@
 				BF9D04D520658A4100E450EA /* BarView.m in Sources */,
 				BF9D04AE206569EF00E450EA /* AppDelegate.m in Sources */,
 				BF9D04D2206581DA00E450EA /* PieView.m in Sources */,
+				BF9D04F82065DD3600E450EA /* DrawView.m in Sources */,
 				BF9D04E42065B67400E450EA /* myImageView.m in Sources */,
 				BF9D04CF20657BDE00E450EA /* ProgressView.m in Sources */,
+				BF9D04EA2065C26900E450EA /* UIImage+Image.m in Sources */,
 				BF9D04E12065B07E00E450EA /* JuzhenView.m in Sources */,
 				BF9D04D82065A4A700E450EA /* DrawView.m in Sources */,
 			);
