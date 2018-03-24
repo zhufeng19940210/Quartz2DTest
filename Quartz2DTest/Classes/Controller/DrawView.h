@@ -5,7 +5,7 @@
 #import <UIKit/UIKit.h>
 @interface DrawView : UIView
 @property (nonatomic,strong)UIColor *pathColor;
-@property (nonatomic,strong)NSInteger lineWidth;
+@property (nonatomic,assign)NSInteger lineWidth;
 @property (nonatomic,strong)UIImage *image;
 //请屏幕
 -(void)clear;

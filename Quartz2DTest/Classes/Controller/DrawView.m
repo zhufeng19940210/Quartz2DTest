@@ -36,12 +36,35 @@
 }
 -(void)pan:(UIGestureRecognizer *)pan{
     CGPoint purT = [pan locationInView:self];
-    if (pan.state == ) {
-        <#statements#>
+    if (pan.state == UIGestureRecognizerStateBegan) {
+        //创建路径了
+        _path = [[DrawPath alloc]init];
+        //设置_path的宽度
+        _path.lineWidth = _lineWidth;
+        //路径的颜色
+        _path.pathColor = _pathColor;
+        //开始的路径
+        [_path moveToPoint:purT];
+        //保存到数据
+        [_pathArray addObject:_path];
     }
+    // 手指一直在拖动
+    // 添加线到当前触摸点
+    [_path addLineToPoint:curP];
+    // 重绘
+    [self setNeedsDisplay];
 }
-
 -(void)drawRect:(CGRect)rect{
-    
+    for (DrawPath *path in self.pathArray) {
+        if ([path isKindOfClass:[UIImage class]]) {
+            //绘制图片
+            UIImage *image = (UIImage *)path;
+            [image drawInRect:rect];
+        }else{
+            // 画线
+            [path.pathColor set];
+            [path stroke];
+        }
+    }
 }
 @end
